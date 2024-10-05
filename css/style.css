@@ -1,0 +1,28 @@
+a{
+    text-decoration: none;
+}
+h1,p{
+    font-family: "Open Sans", sans-serif;
+}
+h1{
+    font-size: 40px;
+    font-weight: 700;
+}
+p{
+    font-size: 17.6px;
+    font-weight: 400;
+}
+.cat-btn{
+    color: #fff;
+    background-color: #802C6E;
+}
+.cat-btn:hover{
+    background-color: #9a3d86;
+    color: #fff;
+}
+.img-card{
+    height: 200px;
+}
+.purple-text{
+    color:#802C6E
+}
