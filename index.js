@@ -61,9 +61,9 @@ async function getAllProducts() {
   displayProducts(allProducts);
 }
 
-function displayProducts(products) {
+function displayProducts() {
   let displayProduct = document.getElementById("displayProduct");
-  let Products = products
+  let Products = allProducts
     .map((product) => {
       return `
         <div class="col-md-3 mb-4">
